@@ -3916,3 +3916,10 @@ input, select, textarea {
 			width: 50px;
 			height: 50px;
 		}
+
+		a.site-imgs > img {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 20em;
+		}
