@@ -3917,9 +3917,10 @@ input, select, textarea {
 			height: 50px;
 		}
 
-		a.site-imgs > img {
+		a.site-imgs, a.site-imgs > img {
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			width: 20em;
+			width: 15em;
+			margin-left: 1em;
 		}
