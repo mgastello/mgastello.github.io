@@ -3924,3 +3924,20 @@ input, select, textarea {
 			width: 15em;
 			margin-left: 1em;
 		}
+
+		.resume-button {
+			margin: 0 auto;
+			text-decoration: none;
+			width: 20%;
+		}
+
+		.my-pic {
+			height: 16vh;
+			border-radius: 50%;
+		}
+		
+		.intro-header {
+			display: flex;
+			align-items: center;
+			gap: 2vw;
+		}
