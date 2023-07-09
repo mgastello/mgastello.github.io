@@ -234,7 +234,7 @@ input, select, textarea {
 		font-size: 0.6em;
 	}
 
-	@media screen and (max-width: 736px) {
+	/* @media screen and (max-width: 736px) {
 
 		h1 {
 			font-size: 2em;
@@ -260,7 +260,7 @@ input, select, textarea {
 			font-size: 0.6em;
 		}
 
-	}
+	} */
 
 	sub {
 		font-size: 0.8em;
@@ -3940,4 +3940,21 @@ input, select, textarea {
 			display: flex;
 			align-items: center;
 			gap: 2vw;
+		}
+
+		.project-page-header {
+			display: flex;
+			gap: 1em;
+		}
+
+		.github-logo-img {
+			position: relative;
+			height: 44px;
+			line-height: 1.5;
+		}
+
+		.github-link {
+			height: 44px;
+			margin-top: 1em;
+			border-bottom: none;
 		}
